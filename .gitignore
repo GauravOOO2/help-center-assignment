@@ -10,6 +10,10 @@
 .env
 .env.local
 .env.*.local
+# Ignore .env files in specific directories
+my-help-center/.env
+BackEnd/.env
+
 
 # Logs
 npm-debug.log*
