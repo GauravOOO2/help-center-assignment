@@ -37,4 +37,5 @@ next-env.d.ts
 
 
 # local env files
-**/.env
+BackEnd/.env
+my-help-center/.env
