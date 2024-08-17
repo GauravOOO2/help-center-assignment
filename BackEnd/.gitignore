@@ -1,3 +1,2 @@
-# Ignore .env folders
-.env/
+# dependencies
 /node_modules
