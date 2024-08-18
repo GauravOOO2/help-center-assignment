@@ -100,12 +100,12 @@ This project is built by [J.Gaurav Varma](https://github.com/GauravOOO2).
 ---
 
 
-![alt text](<Screenshot 2024-08-18 204345.png>)
+![alt text](</media/Screenshot 2024-08-18 204345.png>)
 
-![alt text](image.png)
+![alt text](/media/image.png)
 
 <video controls src="Screen Recording 2024-08-18 192732.mp4" title="Title"></video>
 
-![alt text](image-1.png)
+![alt text](/media/image-1.png)
 
-![alt text](image-2.png)
+![alt text](/media/image-2.png)
