@@ -91,7 +91,7 @@ Run the Application
 ```bash
   npm run dev
 ```
-
+## Note: Please add your MongoDB link in the .env folder at the place "MONGO_URI="
 
 ## Built by
 
