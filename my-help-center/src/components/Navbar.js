@@ -20,11 +20,11 @@ function Navbar({ setCategoriesEvent }) {
               className="h-8 w-auto pr-2" 
             />
             <span className='text-2xl	' >|</span>
-            <span className='pl-2 pt-1' >Help Center  </span>            
+            <span className='pl-2 pt-1' >Help Center  </span>
             </div>
           <button
             onClick={openModal}
-            className="bg-gray-800 py-2 px-4 rounded  mt-4 md:mt-0"
+            className="bg-gray-900 py-2 px-4 rounded border mt-4 md:mt-0"
           >
             Submit a request
           </button>
