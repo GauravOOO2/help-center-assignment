@@ -98,15 +98,11 @@ Run the Application
 This project is built by [J.Gaurav Varma](https://github.com/GauravOOO2).
 
 ---
-
+![alt text](/media/image.png)
 
 ![alt text](</media/Screenshot 2024-08-18 204345.png>)
 
 ![alt text](/media/image3.png)
-
-![alt text](/media/image.png)
-
-
 
 ![alt text](/media/image-1.png)
 
