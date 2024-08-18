@@ -36,13 +36,14 @@ It provides functionalities such as form submissions and search capabilities to 
 ## Run Locally
 
 
-#### Option 1. Clone the project from github
+#### Clone the project from github
 
-**Back End:**
+
 
 ```bash
   git clone https://github.com/GauravOOO2/help-center-assignment.git
 ```
+**Back End:**
 
 Navigate to the BackEnd Directory:
 
@@ -71,7 +72,7 @@ Start the BackEnd server
   node server.js
 ```
 
-**Front End**
+**Front End:**
 
 Navigate to the Front End Directory:
 
