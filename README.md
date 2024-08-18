@@ -10,15 +10,6 @@ The Help Center Cards API is a service designed to manage 'Help Center' cards, a
 
 It provides functionalities such as form submissions and search capabilities to enhance user interaction and management of help center content.
 
-## Features
-
-- **Form Submission and Dynamic Data Display:** Submit new cards via a form popup to the backend API, handling card data input and submission. Display all card data from the database dynamically as soon as new cards are inserted.
-- **Search Functionality:** Dynamically search for cards using keywords through a search bar. Display search results or a "No card found" message if there are no matches.
-- **Error Handling:** Includes try catch block to handle and display errors effectively.
-- **User Interaction:** Provides intuitive interfaces for users to interact with the 'Help Center' cards.
-- **Responsive Design:** Ensures the frontend is user-friendly and functional across different devices.
-
-
 ---
 
 ## Technology Stack
@@ -92,7 +83,7 @@ Set Environment Variables:
 Create a .env file in the frontend directory and add the following:
 
 ```bash
-BACKEND_URL=http://localhost:5000/api
+NEXT_PUBLIC_BACKEND_URL="http://localhost:5000/api"
 
 ```
 Run the Application 
