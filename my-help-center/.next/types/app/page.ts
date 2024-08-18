@@ -1,4 +1,4 @@
-// File: C:\zProgramming\fullstack-assignment\my-help-center\src\app\page.js
+// File: C:\zProgramming\help-center-assignment\my-help-center\src\app\page.js
 import * as entry from '../../../src/app/page.js'
 import type { ResolvingMetadata, ResolvingViewport } from 'next/dist/lib/metadata/types/metadata-interface.js'
 

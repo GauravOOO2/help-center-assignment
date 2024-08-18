@@ -11,11 +11,11 @@ export default function Home() {
     setCategories(e)
   }
   return (
-    <div className="flex flex-col min-h-screen">
+    <div className="flex flex-col min-h-screen bg-white">
       <Navbar setCategoriesEvent={setCategoriesEvent} />
       <div className="flex-grow">
-        <div className="bg-purple-100 text-center py-12">
-          <h1 className="text-3xl font-semibold text-black">How can we help?</h1>
+        <div style={{ backgroundColor: 'rgba(218, 219, 240, 1)' }} className=" text-center py-16">
+          <h1 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-semibold text-black">How can we help?</h1>
           <SearchBar 
           categories={categories}
             setCategoriesEvent={setCategoriesEvent}

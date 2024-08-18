@@ -29,9 +29,9 @@ function SearchBar({ categories, setCategoriesEvent }) {
     }
 
     try {
-     
       const response = await axios.get(`${process.env.NEXT_PUBLIC_BACKEND_URL}/cards/${searchTerm}`);
       
+      // Ensure response.data is an array
       const data = Array.isArray(response.data) ? response.data : [response.data];
       
       if (data.length > 0) {

@@ -18,7 +18,7 @@ function RequestFormModal({ isOpen, onClose, setCategoriesEvent }) {
     e.preventDefault();
 
     try {
-      const response = await axios.post('http://localhost:5000/api/cards', {
+      const response = await axios.post(`${process.env.NEXT_PUBLIC_BACKEND_URL}/cards`, {
         title,
         description,
       });
@@ -26,11 +26,11 @@ function RequestFormModal({ isOpen, onClose, setCategoriesEvent }) {
       console.log('Response:', response.data);
       alert('Request submitted successfully!');
       fetchData();
-      // Clear the form fields
+
       setTitle('');
+      
       setDescription('');
 
-      // Close the modal
       onClose();
     } catch (error) {
       console.error('Error submitting request:', error);
