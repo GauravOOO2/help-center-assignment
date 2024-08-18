@@ -107,3 +107,5 @@ This project is built by [J.Gaurav Varma](https://github.com/GauravOOO2).
 <video controls src="Screen Recording 2024-08-18 192732.mp4" title="Title"></video>
 
 ![alt text](image-1.png)
+
+![alt text](image-2.png)
